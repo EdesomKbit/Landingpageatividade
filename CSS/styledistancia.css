@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#logo {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0.5rem;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.imagem_destaque img {
+    width: 100%;
+    height: auto;
+}
+
+#banner {
+    background: #004080;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color:#0052cc;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+footer {
+    background: #0052cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
